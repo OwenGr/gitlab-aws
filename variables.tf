@@ -43,6 +43,11 @@ variable "db_instance_type" {
   default     = "db.t2.small"
 }
 
+variable "cache_instance_type" {
+  description = "The Redis Cache instance type to utilize"
+  default     = "cache.t2.micro"
+}
+
 # RDS Variables
 variable "db_username" {
   description = "The master database username"
