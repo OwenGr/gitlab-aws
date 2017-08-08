@@ -18,12 +18,12 @@ variable "vpc_id" {
 
 variable "public_subnets" {
   type        = "list"
-  description = "The public subnets to deploy to"
+  description = "The public subnets to deploy to; note the code expects only 2"
 }
 
 variable "private_subnets" {
   type        = "list"
-  description = "The private subnets to deploy to"
+  description = "The private subnets to deploy to; note the code expects only 2"
 }
 
 # EC2 Variables
